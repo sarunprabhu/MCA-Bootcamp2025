@@ -8,7 +8,7 @@ body {
 
 .container {
   background: white;
-  border: solid black;
+  border: 2px solid black;
   padding:0px;
   max-width: 800px;
   width: 100%;
@@ -29,7 +29,7 @@ body {
 }
 
 .content {
-  display: flex;
+  display:flow-root;
   gap: 20px;
 }
 
@@ -49,14 +49,14 @@ body {
 }
 
 .colors {
-  margin: 0px ;
+  margin: 10px 0 ;
 }
 
 .color {
   display: inline-block;
   width: 20px;
   height: 20px;
-  margin-right: 0px;
+  margin-right: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .cart-btn {
-  margin-top: 0px;
+  margin-top: 20px;
   width: 100%;
   padding:20px;
   font-size: 16px;
